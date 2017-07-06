@@ -8,10 +8,8 @@
 
 #import "XLTestVC.h"
 #import "XLSegmentBar.h"
+#import "XLConst.h"
 
-CGFloat const navBarH = 64.0f;
-CGFloat const headerImgH = 210.0f;
-CGFloat const barH = 44.0f;
 
 @interface XLTestVC ()<UITableViewDataSource,UITableViewDelegate>
 
