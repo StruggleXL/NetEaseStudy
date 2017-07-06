@@ -7,6 +7,7 @@
 //
 
 #import "XLStudyChildCatalogueVC.h"
+#import "UIViewController+XLScroll.h"
 
 @interface XLStudyChildCatalogueVC ()
 
@@ -16,11 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setupScroll];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
 
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 20;
+    return 25;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

@@ -12,6 +12,7 @@
 #import "XLStudyChildIntroductionVC.h"
 #import "XLStudyChildCatalogueVC.h"
 #import "XLStudyChildCommentVC.h"
+#import "UIViewController+XLScroll.h"
 
 @interface XLNetEaseStudyDetailVC ()<UIScrollViewDelegate,XLSegmentBarDelegate,XLStudyChildVCDelegate>
 {
@@ -50,9 +51,8 @@
     [self addChildWithVC:[XLStudyChildCatalogueVC new] title:@"目录"];
     [self addChildWithVC:[XLStudyChildCommentVC new] title:@"评价"];
 }
-- (void)addChildWithVC:(XLStudyChildBaseVC *)vc title:(NSString *)title {
+- (void)addChildWithVC:(UITableViewController *)vc title:(NSString *)title {
     vc.title = title;
-    vc.delegate = self;
     [self addChildViewController:vc];
 }
 /** 选中索引对应VC*/
@@ -79,7 +79,8 @@
     [self selectedIndex:index];
 }
 #pragma mark - XLStudyChildVCDelegate
-- (void)childVc:(UIViewController *)childVc scrollViewDidScroll:(CGFloat)offsetY {
+- (void)childVc:(UIViewController *)childVc scrollViewDidScroll:(UIScrollView *)scroll {
+    CGFloat offsetY = scroll.contentOffset.y;
     UIViewController *currentVC = self.childViewControllers[_currentIndex];
     if ([currentVC isEqual:childVc]) {
         CGRect headerFrame = self.header.frame;
@@ -99,7 +100,7 @@
         self.bar.frame = barFrame;
         
         // 改变其他VC中的scroll偏移
-        [self.childViewControllers enumerateObjectsUsingBlock:^(XLStudyChildBaseVC *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [self.childViewControllers enumerateObjectsUsingBlock:^(UIViewController *obj, NSUInteger idx, BOOL * _Nonnull stop) {
             if (![obj isMemberOfClass:[currentVC class]]) {
                 if (offsetY <= headerImgH) {
                     [obj setCurrentScrollContentOffsetY:offsetY];

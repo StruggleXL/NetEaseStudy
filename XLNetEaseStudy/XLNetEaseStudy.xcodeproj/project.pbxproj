@@ -20,7 +20,7 @@
 		7659E5CA1F0E25AD00AF017B /* XLStudyChildCommentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5C91F0E25AD00AF017B /* XLStudyChildCommentVC.m */; };
 		7659E5CD1F0E25E300AF017B /* XLStudyChildCatalogueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5CC1F0E25E300AF017B /* XLStudyChildCatalogueVC.m */; };
 		7659E5D01F0E263A00AF017B /* XLStudyChildIntroductionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5CF1F0E263A00AF017B /* XLStudyChildIntroductionVC.m */; };
-		7659E5D31F0E2EB800AF017B /* XLStudyChildBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5D21F0E2EB800AF017B /* XLStudyChildBaseVC.m */; };
+		7659E5D61F0E648700AF017B /* UIViewController+XLScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5D51F0E648700AF017B /* UIViewController+XLScroll.m */; };
 		76D615AF1F0DC8990015EE6F /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D615AE1F0DC8990015EE6F /* header.jpg */; };
 		76D615B61F0DD5160015EE6F /* XLTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D615B51F0DD5160015EE6F /* XLTestVC.m */; };
 		76D615B91F0E181B0015EE6F /* XLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D615B81F0E181B0015EE6F /* XLConst.m */; };
@@ -50,8 +50,8 @@
 		7659E5CC1F0E25E300AF017B /* XLStudyChildCatalogueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLStudyChildCatalogueVC.m; sourceTree = "<group>"; };
 		7659E5CE1F0E263A00AF017B /* XLStudyChildIntroductionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLStudyChildIntroductionVC.h; sourceTree = "<group>"; };
 		7659E5CF1F0E263A00AF017B /* XLStudyChildIntroductionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLStudyChildIntroductionVC.m; sourceTree = "<group>"; };
-		7659E5D11F0E2EB800AF017B /* XLStudyChildBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLStudyChildBaseVC.h; sourceTree = "<group>"; };
-		7659E5D21F0E2EB800AF017B /* XLStudyChildBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLStudyChildBaseVC.m; sourceTree = "<group>"; };
+		7659E5D41F0E648700AF017B /* UIViewController+XLScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLScroll.h"; sourceTree = "<group>"; };
+		7659E5D51F0E648700AF017B /* UIViewController+XLScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLScroll.m"; sourceTree = "<group>"; };
 		76D615AE1F0DC8990015EE6F /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
 		76D615B41F0DD5160015EE6F /* XLTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTestVC.h; sourceTree = "<group>"; };
 		76D615B51F0DD5160015EE6F /* XLTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTestVC.m; sourceTree = "<group>"; };
@@ -142,8 +142,8 @@
 				7659E5CC1F0E25E300AF017B /* XLStudyChildCatalogueVC.m */,
 				7659E5C81F0E25AD00AF017B /* XLStudyChildCommentVC.h */,
 				7659E5C91F0E25AD00AF017B /* XLStudyChildCommentVC.m */,
-				7659E5D11F0E2EB800AF017B /* XLStudyChildBaseVC.h */,
-				7659E5D21F0E2EB800AF017B /* XLStudyChildBaseVC.m */,
+				7659E5D41F0E648700AF017B /* UIViewController+XLScroll.h */,
+				7659E5D51F0E648700AF017B /* UIViewController+XLScroll.m */,
 				760ED1D81F0CEE14000C08FA /* View */,
 			);
 			path = XLNetEaseStudyDetail;
@@ -210,6 +210,7 @@
 				TargetAttributes = {
 					760ED1A81F0CDCA9000C08FA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5NCZ52495W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -251,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7659E5D61F0E648700AF017B /* UIViewController+XLScroll.m in Sources */,
 				760ED1E21F0D1BAB000C08FA /* NSString+XLSegmentModelPrtol.m in Sources */,
 				7659E5CA1F0E25AD00AF017B /* XLStudyChildCommentVC.m in Sources */,
 				7659E5CD1F0E25E300AF017B /* XLStudyChildCatalogueVC.m in Sources */,
@@ -259,7 +261,6 @@
 				76D615B61F0DD5160015EE6F /* XLTestVC.m in Sources */,
 				760ED1CB1F0CEB23000C08FA /* ViewController.m in Sources */,
 				760ED1D71F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.m in Sources */,
-				7659E5D31F0E2EB800AF017B /* XLStudyChildBaseVC.m in Sources */,
 				760ED1DC1F0CEE63000C08FA /* XLSegmentBar.m in Sources */,
 				760ED1CA1F0CEB23000C08FA /* main.m in Sources */,
 				76D615B91F0E181B0015EE6F /* XLConst.m in Sources */,
@@ -329,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -371,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NCZ52495W;
 				INFOPLIST_FILE = XLNetEaseStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.srgroup.XLNetEaseStudy;
@@ -394,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NCZ52495W;
 				INFOPLIST_FILE = XLNetEaseStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.srgroup.XLNetEaseStudy;

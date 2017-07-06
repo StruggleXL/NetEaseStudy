@@ -6,8 +6,8 @@
 //  Copyright © 2017年 xl. All rights reserved.
 //  目录
 
-#import "XLStudyChildBaseVC.h"
+#import <UIKit/UIKit.h>
 
-@interface XLStudyChildCatalogueVC : XLStudyChildBaseVC
+@interface XLStudyChildCatalogueVC : UITableViewController
 
 @end
