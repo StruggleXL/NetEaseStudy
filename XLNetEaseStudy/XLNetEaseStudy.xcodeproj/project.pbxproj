@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		760ED1AE1F0CDCA9000C08FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1AD1F0CDCA9000C08FA /* main.m */; };
-		760ED1B11F0CDCA9000C08FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1B01F0CDCA9000C08FA /* AppDelegate.m */; };
-		760ED1B41F0CDCA9000C08FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1B31F0CDCA9000C08FA /* ViewController.m */; };
-		760ED1B71F0CDCA9000C08FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760ED1B51F0CDCA9000C08FA /* Main.storyboard */; };
 		760ED1B91F0CDCAA000C08FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760ED1B81F0CDCAA000C08FA /* Assets.xcassets */; };
-		760ED1BC1F0CDCAA000C08FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760ED1BA1F0CDCAA000C08FA /* LaunchScreen.storyboard */; };
+		760ED1C91F0CEB23000C08FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1C51F0CEB23000C08FA /* AppDelegate.m */; };
+		760ED1CA1F0CEB23000C08FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1C61F0CEB23000C08FA /* main.m */; };
+		760ED1CB1F0CEB23000C08FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1C81F0CEB23000C08FA /* ViewController.m */; };
+		760ED1D21F0CEBB1000C08FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760ED1CE1F0CEBB1000C08FA /* LaunchScreen.storyboard */; };
+		760ED1D31F0CEBB1000C08FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760ED1D01F0CEBB1000C08FA /* Main.storyboard */; };
+		760ED1D71F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1D61F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.m */; };
+		760ED1DC1F0CEE63000C08FA /* XLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1DB1F0CEE63000C08FA /* XLSegmentBar.m */; };
+		760ED1DE1F0CF821000C08FA /* XLSegmentModelProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1DD1F0CF0BF000C08FA /* XLSegmentModelProtocol.h */; };
+		760ED1E21F0D1BAB000C08FA /* NSString+XLSegmentModelPrtol.m in Sources */ = {isa = PBXBuildFile; fileRef = 760ED1E11F0D1BAB000C08FA /* NSString+XLSegmentModelPrtol.m */; };
+		76D615AF1F0DC8990015EE6F /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D615AE1F0DC8990015EE6F /* header.jpg */; };
+		76D615B61F0DD5160015EE6F /* XLTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D615B51F0DD5160015EE6F /* XLTestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		760ED1A91F0CDCA9000C08FA /* XLNetEaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLNetEaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		760ED1AD1F0CDCA9000C08FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		760ED1AF1F0CDCA9000C08FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		760ED1B01F0CDCA9000C08FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		760ED1B21F0CDCA9000C08FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		760ED1B31F0CDCA9000C08FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		760ED1B61F0CDCA9000C08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		760ED1B81F0CDCAA000C08FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		760ED1BB1F0CDCAA000C08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760ED1BD1F0CDCAA000C08FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		760ED1C41F0CEB23000C08FA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		760ED1C51F0CEB23000C08FA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		760ED1C61F0CEB23000C08FA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		760ED1C71F0CEB23000C08FA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		760ED1C81F0CEB23000C08FA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		760ED1CF1F0CEBB1000C08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		760ED1D11F0CEBB1000C08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		760ED1D51F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLNetEaseStudyDetailVC.h; sourceTree = "<group>"; };
+		760ED1D61F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLNetEaseStudyDetailVC.m; sourceTree = "<group>"; };
+		760ED1DA1F0CEE63000C08FA /* XLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentBar.h; sourceTree = "<group>"; };
+		760ED1DB1F0CEE63000C08FA /* XLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentBar.m; sourceTree = "<group>"; };
+		760ED1DD1F0CF0BF000C08FA /* XLSegmentModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentModelProtocol.h; sourceTree = "<group>"; };
+		760ED1E01F0D1BAB000C08FA /* NSString+XLSegmentModelPrtol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLSegmentModelPrtol.h"; sourceTree = "<group>"; };
+		760ED1E11F0D1BAB000C08FA /* NSString+XLSegmentModelPrtol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLSegmentModelPrtol.m"; sourceTree = "<group>"; };
+		76D615AE1F0DC8990015EE6F /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
+		76D615B41F0DD5160015EE6F /* XLTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTestVC.h; sourceTree = "<group>"; };
+		76D615B51F0DD5160015EE6F /* XLTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +74,10 @@
 		760ED1AB1F0CDCA9000C08FA /* XLNetEaseStudy */ = {
 			isa = PBXGroup;
 			children = (
-				760ED1AF1F0CDCA9000C08FA /* AppDelegate.h */,
-				760ED1B01F0CDCA9000C08FA /* AppDelegate.m */,
-				760ED1B21F0CDCA9000C08FA /* ViewController.h */,
-				760ED1B31F0CDCA9000C08FA /* ViewController.m */,
-				760ED1B51F0CDCA9000C08FA /* Main.storyboard */,
-				760ED1B81F0CDCAA000C08FA /* Assets.xcassets */,
-				760ED1BA1F0CDCAA000C08FA /* LaunchScreen.storyboard */,
-				760ED1BD1F0CDCAA000C08FA /* Info.plist */,
+				76D615B31F0DD4E60015EE6F /* Test */,
+				760ED1C31F0CEB23000C08FA /* Launch */,
+				760ED1D41F0CEC1C000C08FA /* XLNetEaseStudyDetail */,
+				760ED1CD1F0CEBB1000C08FA /* Storyboard */,
 				760ED1AC1F0CDCA9000C08FA /* Supporting Files */,
 			);
 			path = XLNetEaseStudy;
@@ -74,9 +86,71 @@
 		760ED1AC1F0CDCA9000C08FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				760ED1AD1F0CDCA9000C08FA /* main.m */,
+				76D615AE1F0DC8990015EE6F /* header.jpg */,
+				760ED1BD1F0CDCAA000C08FA /* Info.plist */,
+				760ED1B81F0CDCAA000C08FA /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		760ED1C31F0CEB23000C08FA /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				760ED1C61F0CEB23000C08FA /* main.m */,
+				760ED1C41F0CEB23000C08FA /* AppDelegate.h */,
+				760ED1C51F0CEB23000C08FA /* AppDelegate.m */,
+				760ED1C71F0CEB23000C08FA /* ViewController.h */,
+				760ED1C81F0CEB23000C08FA /* ViewController.m */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		760ED1CD1F0CEBB1000C08FA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				760ED1CE1F0CEBB1000C08FA /* LaunchScreen.storyboard */,
+				760ED1D01F0CEBB1000C08FA /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		760ED1D41F0CEC1C000C08FA /* XLNetEaseStudyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				760ED1D51F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.h */,
+				760ED1D61F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.m */,
+				760ED1D81F0CEE14000C08FA /* View */,
+			);
+			path = XLNetEaseStudyDetail;
+			sourceTree = "<group>";
+		};
+		760ED1D81F0CEE14000C08FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				760ED1D91F0CEE37000C08FA /* SegmentBar */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		760ED1D91F0CEE37000C08FA /* SegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				760ED1DD1F0CF0BF000C08FA /* XLSegmentModelProtocol.h */,
+				760ED1E01F0D1BAB000C08FA /* NSString+XLSegmentModelPrtol.h */,
+				760ED1E11F0D1BAB000C08FA /* NSString+XLSegmentModelPrtol.m */,
+				760ED1DA1F0CEE63000C08FA /* XLSegmentBar.h */,
+				760ED1DB1F0CEE63000C08FA /* XLSegmentBar.m */,
+			);
+			path = SegmentBar;
+			sourceTree = "<group>";
+		};
+		76D615B31F0DD4E60015EE6F /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				76D615B41F0DD5160015EE6F /* XLTestVC.h */,
+				76D615B51F0DD5160015EE6F /* XLTestVC.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +179,7 @@
 		760ED1A11F0CDCA9000C08FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XL;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = xl;
 				TargetAttributes = {
@@ -137,9 +212,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				760ED1BC1F0CDCAA000C08FA /* LaunchScreen.storyboard in Resources */,
+				760ED1D31F0CEBB1000C08FA /* Main.storyboard in Resources */,
 				760ED1B91F0CDCAA000C08FA /* Assets.xcassets in Resources */,
-				760ED1B71F0CDCA9000C08FA /* Main.storyboard in Resources */,
+				76D615AF1F0DC8990015EE6F /* header.jpg in Resources */,
+				760ED1D21F0CEBB1000C08FA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,29 +226,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				760ED1B41F0CDCA9000C08FA /* ViewController.m in Sources */,
-				760ED1B11F0CDCA9000C08FA /* AppDelegate.m in Sources */,
-				760ED1AE1F0CDCA9000C08FA /* main.m in Sources */,
+				760ED1E21F0D1BAB000C08FA /* NSString+XLSegmentModelPrtol.m in Sources */,
+				760ED1DE1F0CF821000C08FA /* XLSegmentModelProtocol.h in Sources */,
+				76D615B61F0DD5160015EE6F /* XLTestVC.m in Sources */,
+				760ED1CB1F0CEB23000C08FA /* ViewController.m in Sources */,
+				760ED1D71F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.m in Sources */,
+				760ED1DC1F0CEE63000C08FA /* XLSegmentBar.m in Sources */,
+				760ED1CA1F0CEB23000C08FA /* main.m in Sources */,
+				760ED1C91F0CEB23000C08FA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		760ED1B51F0CDCA9000C08FA /* Main.storyboard */ = {
+		760ED1CE1F0CEBB1000C08FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				760ED1B61F0CDCA9000C08FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		760ED1BA1F0CDCAA000C08FA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				760ED1BB1F0CDCAA000C08FA /* Base */,
+				760ED1CF1F0CEBB1000C08FA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		760ED1D01F0CEBB1000C08FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				760ED1D11F0CEBB1000C08FA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -309,6 +390,7 @@
 				760ED1C21F0CDCAA000C08FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
