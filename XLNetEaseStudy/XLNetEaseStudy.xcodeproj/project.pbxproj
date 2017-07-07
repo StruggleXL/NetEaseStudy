@@ -21,6 +21,7 @@
 		7659E5CD1F0E25E300AF017B /* XLStudyChildCatalogueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5CC1F0E25E300AF017B /* XLStudyChildCatalogueVC.m */; };
 		7659E5D01F0E263A00AF017B /* XLStudyChildIntroductionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5CF1F0E263A00AF017B /* XLStudyChildIntroductionVC.m */; };
 		7659E5D61F0E648700AF017B /* UIViewController+XLScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5D51F0E648700AF017B /* UIViewController+XLScroll.m */; };
+		7659E5E51F0F270400AF017B /* XLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5E41F0F270400AF017B /* XLScrollView.m */; };
 		76D615AF1F0DC8990015EE6F /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D615AE1F0DC8990015EE6F /* header.jpg */; };
 		76D615B61F0DD5160015EE6F /* XLTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D615B51F0DD5160015EE6F /* XLTestVC.m */; };
 		76D615B91F0E181B0015EE6F /* XLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D615B81F0E181B0015EE6F /* XLConst.m */; };
@@ -52,6 +53,8 @@
 		7659E5CF1F0E263A00AF017B /* XLStudyChildIntroductionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLStudyChildIntroductionVC.m; sourceTree = "<group>"; };
 		7659E5D41F0E648700AF017B /* UIViewController+XLScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLScroll.h"; sourceTree = "<group>"; };
 		7659E5D51F0E648700AF017B /* UIViewController+XLScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLScroll.m"; sourceTree = "<group>"; };
+		7659E5E31F0F270400AF017B /* XLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLScrollView.h; sourceTree = "<group>"; };
+		7659E5E41F0F270400AF017B /* XLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLScrollView.m; sourceTree = "<group>"; };
 		76D615AE1F0DC8990015EE6F /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
 		76D615B41F0DD5160015EE6F /* XLTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTestVC.h; sourceTree = "<group>"; };
 		76D615B51F0DD5160015EE6F /* XLTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTestVC.m; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 		760ED1D81F0CEE14000C08FA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7659E5E31F0F270400AF017B /* XLScrollView.h */,
+				7659E5E41F0F270400AF017B /* XLScrollView.m */,
 				760ED1D91F0CEE37000C08FA /* SegmentBar */,
 			);
 			path = View;
@@ -258,6 +263,7 @@
 				7659E5CD1F0E25E300AF017B /* XLStudyChildCatalogueVC.m in Sources */,
 				7659E5D01F0E263A00AF017B /* XLStudyChildIntroductionVC.m in Sources */,
 				760ED1DE1F0CF821000C08FA /* XLSegmentModelProtocol.h in Sources */,
+				7659E5E51F0F270400AF017B /* XLScrollView.m in Sources */,
 				76D615B61F0DD5160015EE6F /* XLTestVC.m in Sources */,
 				760ED1CB1F0CEB23000C08FA /* ViewController.m in Sources */,
 				760ED1D71F0CEC5B000C08FA /* XLNetEaseStudyDetailVC.m in Sources */,

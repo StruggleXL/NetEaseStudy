@@ -7,6 +7,7 @@
 //
 
 #import "XLNetEaseStudyDetailVC.h"
+#import "XLScrollView.h"
 #import "XLSegmentBar.h"
 #import "XLConst.h"
 #import "XLStudyChildIntroductionVC.h"
@@ -18,7 +19,7 @@
 {
     NSInteger _currentIndex;
 }
-@property (nonatomic,strong) UIScrollView *contentView;
+@property (nonatomic,strong) XLScrollView *contentView;
 @property (nonatomic,weak) UIImageView *header;
 @property (nonatomic,weak) XLSegmentBar *bar;
 @end
@@ -113,9 +114,9 @@
     
 }
 #pragma mark - lazy
-- (UIScrollView *)contentView {
+- (XLScrollView *)contentView {
     if (!_contentView) {
-        _contentView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, navBarH, self.view.bounds.size.width, self.view.bounds.size.height - navBarH)];
+        _contentView = [[XLScrollView alloc] initWithFrame:CGRectMake(0, navBarH, self.view.bounds.size.width, self.view.bounds.size.height - navBarH)];
         _contentView.delegate = self;
         _contentView.showsHorizontalScrollIndicator = NO;
         _contentView.pagingEnabled = YES;

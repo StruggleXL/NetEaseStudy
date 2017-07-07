@@ -14,8 +14,10 @@
 - (void)setupScroll {
     if ([self isKindOfClass:[UITableViewController class]]) {
         UITableViewController *tableVC = (UITableViewController *)self;
-        tableVC.tableView.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, headerImgH + barH)];;
+        tableVC.tableView.tableHeaderView = [[UITableViewHeaderFooterView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, headerImgH + barH)];;
         tableVC.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(headerImgH + barH, 0, 0, 0);
+        tableVC.tableView.delaysContentTouches = NO;
+        tableVC.tableView.canCancelContentTouches = YES;
     }
 }
 
