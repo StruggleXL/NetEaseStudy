@@ -14,13 +14,18 @@
 - (void)setupScroll {
     if ([self isKindOfClass:[UITableViewController class]]) {
         UITableViewController *tableVC = (UITableViewController *)self;
-        tableVC.tableView.tableHeaderView = [[UITableViewHeaderFooterView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, headerImgH + barH)];;
+        UITableViewHeaderFooterView *headerV = [[UITableViewHeaderFooterView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, headerImgH + barH)];
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(testTap:)];
+        [headerV addGestureRecognizer:tap];
+        tableVC.tableView.tableHeaderView = headerV;
         tableVC.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(headerImgH + barH, 0, 0, 0);
         tableVC.tableView.delaysContentTouches = NO;
         tableVC.tableView.canCancelContentTouches = YES;
     }
 }
-
+- (void)testTap:(UITapGestureRecognizer *)tap {
+    NSLog(@"测试手势");
+}
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (self.parentViewController && [self.parentViewController respondsToSelector:@selector(childVc:scrollViewDidScroll:)]) {
         [self.parentViewController performSelector:@selector(childVc:scrollViewDidScroll:) withObject:self withObject:scrollView];
