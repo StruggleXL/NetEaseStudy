@@ -37,7 +37,7 @@
         UITableViewController *tableVC = (UITableViewController *)self;
         if (offsetY <= headerImgH) {
             [tableVC.tableView setContentOffset:CGPointMake(0, offsetY)];
-        } else if (tableVC.tableView.contentOffset.y < offsetY && tableVC.tableView.contentOffset.y< headerImgH) {
+        } else if (tableVC.tableView.contentOffset.y < offsetY && tableVC.tableView.contentOffset.y < headerImgH) {
             [tableVC.tableView setContentOffset:CGPointMake(0, headerImgH)];
         }
     }

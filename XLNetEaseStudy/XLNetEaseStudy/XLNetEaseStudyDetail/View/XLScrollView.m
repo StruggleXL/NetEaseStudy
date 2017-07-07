@@ -28,6 +28,7 @@
     return self;
 }
 - (void)setupTouches {
+    // 取消子试图延迟响应
     self.delaysContentTouches = NO;
     self.canCancelContentTouches = YES;
 }
