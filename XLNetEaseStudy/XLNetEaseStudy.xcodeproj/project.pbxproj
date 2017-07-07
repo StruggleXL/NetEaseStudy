@@ -22,6 +22,7 @@
 		7659E5D01F0E263A00AF017B /* XLStudyChildIntroductionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5CF1F0E263A00AF017B /* XLStudyChildIntroductionVC.m */; };
 		7659E5D61F0E648700AF017B /* UIViewController+XLScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5D51F0E648700AF017B /* UIViewController+XLScroll.m */; };
 		7659E5E51F0F270400AF017B /* XLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7659E5E41F0F270400AF017B /* XLScrollView.m */; };
+		76C498B11F0F5FBB0070B50D /* studyDetail.gif in Resources */ = {isa = PBXBuildFile; fileRef = 76C498B01F0F5FBB0070B50D /* studyDetail.gif */; };
 		76D615AF1F0DC8990015EE6F /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D615AE1F0DC8990015EE6F /* header.jpg */; };
 		76D615B61F0DD5160015EE6F /* XLTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D615B51F0DD5160015EE6F /* XLTestVC.m */; };
 		76D615B91F0E181B0015EE6F /* XLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D615B81F0E181B0015EE6F /* XLConst.m */; };
@@ -55,6 +56,7 @@
 		7659E5D51F0E648700AF017B /* UIViewController+XLScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLScroll.m"; sourceTree = "<group>"; };
 		7659E5E31F0F270400AF017B /* XLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLScrollView.h; sourceTree = "<group>"; };
 		7659E5E41F0F270400AF017B /* XLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLScrollView.m; sourceTree = "<group>"; };
+		76C498B01F0F5FBB0070B50D /* studyDetail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = studyDetail.gif; sourceTree = "<group>"; };
 		76D615AE1F0DC8990015EE6F /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
 		76D615B41F0DD5160015EE6F /* XLTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTestVC.h; sourceTree = "<group>"; };
 		76D615B51F0DD5160015EE6F /* XLTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTestVC.m; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		760ED1AC1F0CDCA9000C08FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				76C498B01F0F5FBB0070B50D /* studyDetail.gif */,
 				76D615AE1F0DC8990015EE6F /* header.jpg */,
 				760ED1BD1F0CDCAA000C08FA /* Info.plist */,
 				760ED1B81F0CDCAA000C08FA /* Assets.xcassets */,
@@ -245,6 +248,7 @@
 			files = (
 				760ED1D31F0CEBB1000C08FA /* Main.storyboard in Resources */,
 				760ED1B91F0CDCAA000C08FA /* Assets.xcassets in Resources */,
+				76C498B11F0F5FBB0070B50D /* studyDetail.gif in Resources */,
 				76D615AF1F0DC8990015EE6F /* header.jpg in Resources */,
 				760ED1D21F0CEBB1000C08FA /* LaunchScreen.storyboard in Resources */,
 			);
