@@ -103,11 +103,7 @@
         // 改变其他VC中的scroll偏移
         [self.childViewControllers enumerateObjectsUsingBlock:^(UIViewController *obj, NSUInteger idx, BOOL * _Nonnull stop) {
             if (![obj isMemberOfClass:[currentVC class]]) {
-                if (offsetY <= headerImgH) {
-                    [obj setCurrentScrollContentOffsetY:offsetY];
-                } else {
-                    [obj setCurrentScrollContentOffsetY:headerImgH];
-                }
+                [obj setCurrentScrollContentOffsetY:offsetY];
             }
         }];
     }
